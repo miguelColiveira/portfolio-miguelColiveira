@@ -59,8 +59,20 @@ export const Home = (): JSX.Element => {
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
-              my projects and technologies
+              my projects and technologies and a little about me.
             </Text>
+            <div>
+            <Text as="h2" type="heading2" color="grey5">About{" "}
+              <Text as="span" type="heading2" color="brand1">
+                me
+              </Text>{" "}
+            </Text>
+            <Text type="body1" color="grey2">
+            Born in Rio de Janeiro Brazil, I started programming through games that aroused my curiosity about how they were made, and following this path I ended up finding a web development course that really interested me and made me want to work in this area.
+Highly motivated programming with JavaScript, TypeScript and Python with strong competence in HTML, CSS and React and Back-end development using PostgreSQL and Express.
+Seeking a position at a company where I can apply and develop my web development skills and collaborate with a dynamic team.
+            </Text>
+            </div>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
                 See Projects

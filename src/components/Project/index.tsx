@@ -53,7 +53,7 @@ export const Project = (): JSX.Element => {
             >
               {repository.name}
             </ProjectTitle>
-
+            
             <ProjectStack>
               <Text type="body2" color="grey2">
                 Primary Language:
